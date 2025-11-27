@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Starting tests..."
+  
+  build:
+    commands:
+      - echo "Running unit tests..."
+      - echo "Running integration tests..."
+      # Add your actual test commands here
+      # Example: npm test, pytest, etc.
+  
+  post_build:
+    commands:
+      - echo "Tests completed successfully"
